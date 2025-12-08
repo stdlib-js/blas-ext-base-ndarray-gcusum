@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-04)
+## Unreleased (2025-12-08)
 
 <section class="features">
 
@@ -43,6 +43,7 @@
 
 <details>
 
+-   [`922f550`](https://github.com/stdlib-js/stdlib/commit/922f5502739518bfbf14a690a7e73af49d3172c0) - **docs:** fix return type _(by Athan Reines)_
 -   [`0efd288`](https://github.com/stdlib-js/stdlib/commit/0efd2889280e00281c200d16528a636922fb8188) - **feat:** remove unsupported signature for complex numbers _(by Philipp Burckhardt)_
 -   [`721033e`](https://github.com/stdlib-js/stdlib/commit/721033eede9b3a4667728f40695d933f49f541c1) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`e995ce7`](https://github.com/stdlib-js/stdlib/commit/e995ce7c82cbe834b8e330968a08810e5b959282) - **fix:** ensure accessor array support _(by Athan Reines)_
