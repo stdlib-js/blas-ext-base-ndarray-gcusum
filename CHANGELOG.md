@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-15)
+## Unreleased (2026-01-12)
 
 <section class="features">
 
@@ -43,6 +43,7 @@
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`800a7b9`](https://github.com/stdlib-js/stdlib/commit/800a7b95be99e40d9f56fd59ce8411c1652355e3) - **docs:** use correct buffer during output ndarray construction [(#9003)](https://github.com/stdlib-js/stdlib/pull/9003) _(by Kaustubh Patange)_
 -   [`922f550`](https://github.com/stdlib-js/stdlib/commit/922f5502739518bfbf14a690a7e73af49d3172c0) - **docs:** fix return type _(by Athan Reines)_
 -   [`0efd288`](https://github.com/stdlib-js/stdlib/commit/0efd2889280e00281c200d16528a636922fb8188) - **feat:** remove unsupported signature for complex numbers _(by Philipp Burckhardt)_
