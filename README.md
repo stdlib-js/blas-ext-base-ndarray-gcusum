@@ -74,7 +74,6 @@ var gcusum = require( '@stdlib/blas-ext-base-ndarray-gcusum' );
 Computes the cumulative sum of a one-dimensional ndarray.
 
 ```javascript
-var ndarray2array = require( '@stdlib/ndarray-to-array' );
 var scalar2ndarray = require( '@stdlib/ndarray-base-from-scalar' );
 var ndarray = require( '@stdlib/ndarray-base-ctor' );
 
@@ -87,13 +86,10 @@ var y = new ndarray( 'generic', ybuf, [ 4 ], [ 1 ], 0, 'row-major' );
 var initial = scalar2ndarray( 0.0, 'generic', 'row-major' );
 
 var v = gcusum( [ x, y, initial ] );
-// returns <ndarray>
+// returns <ndarray>[ 1.0, 4.0, 8.0, 10.0 ]
 
 var bool = ( v === y );
 // returns true
-
-var arr = ndarray2array( v );
-// returns [ 1.0, 4.0, 8.0, 10.0 ]
 ```
 
 The function has the following parameters:
@@ -196,8 +192,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/blas-ext-base-ndarray-gcusum.svg
 [npm-url]: https://npmjs.org/package/@stdlib/blas-ext-base-ndarray-gcusum
 
-[test-image]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusum/actions/workflows/test.yml/badge.svg?branch=v0.1.1
-[test-url]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusum/actions/workflows/test.yml?query=branch:v0.1.1
+[test-image]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusum/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusum/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-ext-base-ndarray-gcusum/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-ext-base-ndarray-gcusum?branch=main

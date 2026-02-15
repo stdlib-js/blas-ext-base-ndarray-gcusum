@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-15)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`9df57d4`](https://github.com/stdlib-js/stdlib/commit/9df57d4d7a7383c849ad00e3cc4335888b6f2197) - **docs:** improve doctests for ndarray instances in `ndarray/gcusum` [(#10250)](https://github.com/stdlib-js/stdlib/pull/10250) _(by AyushiJain18270)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   AyushiJain18270
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
