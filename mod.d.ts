@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,17 +16,21 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { typedndarray } from '@stdlib/types/ndarray';
 
 /**
-* Compute the cumulative sum of a one-dimensional ndarray.
+* Computes the cumulative sum of a one-dimensional ndarray.
 *
-* @module @stdlib/blas-ext-base-ndarray-gcusum
+* @param arrays - array-like object containing an input ndarray, an output ndarray, and ndarray containing the initial sum
+* @returns output ndarray
 *
 * @example
-* var ndarray = require( '@stdlib/ndarray-base-ctor' );
 * var scalar2ndarray = require( '@stdlib/ndarray-base-from-scalar' );
-* var gcusum = require( '@stdlib/blas-ext-base-ndarray-gcusum' );
+* var ndarray = require( '@stdlib/ndarray-base-ctor' );
 *
 * var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
 * var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
@@ -42,12 +46,9 @@
 * var bool = ( v === y );
 * // returns true
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function gcusum<T extends typedndarray<number> = typedndarray<number>>( arrays: [ T, T, T ] ): T;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = gcusum;
