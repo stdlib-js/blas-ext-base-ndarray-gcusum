@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-12)
+## Unreleased (2026-05-06)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`2628663`](https://github.com/stdlib-js/stdlib/commit/26286631e01471db55b3be13e2a21762b5507f7b) - **chore:** add missing keywords in `blas/ext/base/ndarray` cusum packages [(#11967)](https://github.com/stdlib-js/stdlib/pull/11967) _(by Philipp Burckhardt)_
+-   [`0f7212e`](https://github.com/stdlib-js/stdlib/commit/0f7212ee9faeaf5ef04efa7a09336b7aebc9865f) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`df6fbe8`](https://github.com/stdlib-js/stdlib/commit/df6fbe8072b04fc62d2cf41a1f54f68c73acc58f) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11379)](https://github.com/stdlib-js/stdlib/pull/11379) _(by Karan Anand)_
 -   [`9df57d4`](https://github.com/stdlib-js/stdlib/commit/9df57d4d7a7383c849ad00e3cc4335888b6f2197) - **docs:** improve doctests for ndarray instances in `ndarray/gcusum` [(#10250)](https://github.com/stdlib-js/stdlib/pull/10250) _(by AyushiJain18270)_
 
@@ -25,10 +27,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   AyushiJain18270
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
